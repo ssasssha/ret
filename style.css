@@ -1,0 +1,587 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Roslindale';
+}
+
+@font-face {
+	font-family: 'Roslindale';
+	src: url(font-family/Roslindale-DisplayCondensedExtraLightItalic-Testing.ttf);
+}
+
+.container {
+	max-width: 1440px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+header {
+	background: #f2f2f2;
+	width: 100%;
+}
+
+.header {
+
+	width: 1440px;
+	margin: 0 auto;
+}
+
+.links {
+	display: flex;
+	justify-content: center;
+	gap: 50px;
+}
+
+.header__container {
+	background: url("img/shapka.png");
+	background-repeat: no-repeat;
+	width: 1440px;
+	height: 893px;
+}
+
+.header__nav {
+	display: flex;
+	justify-content: space-between;
+	padding: 28px;
+	margin-left: 20px;
+}
+
+.header__nav a {
+	text-decoration: none;
+	color: white;
+	font-size: 13px;
+}
+
+.header__btn a {
+	font-size: 10.21px;
+}
+
+.header__btn {
+	width: 94.5px;
+	height: 22.5px;
+	background-color: #D2A070;
+	text-align: center;
+}
+
+.header__name {
+	font-size: 75px;
+}
+
+.header__info {
+	font-size: 23px;
+}
+
+.header__logo a {
+	text-decoration: none;
+	color: white;
+}
+
+.type {
+	width: 333px;
+	height: 79px;
+	font-size: 15.005px;
+}
+
+.header__title {
+	color: white;
+	width: 1403px;
+	height: 240px;
+	padding: 63px;
+}
+
+.header__text {
+	min-width: 1440px;
+	height: 420px;
+}
+
+.title1 {
+	display: flex;
+	width: 436.51px;
+	height: 45px;
+	flex-direction: column;
+}
+
+.title2 {
+	display: flex;
+	width: 408.7px;
+	height: 45px;
+	flex-direction: column;
+}
+
+.header_info-title {
+	display: flex;
+	flex-wrap: wrap;
+	width: 438px;
+	height: 294px;
+}
+
+.header_group {
+	display: flex;
+	width: 900px;
+	height: 294px;
+	float: right;
+	margin-top: 112px;
+}
+
+.about_section {
+	width: 1430px;
+	height: 800px;
+}
+
+.about_section {
+	display: flex;
+	gap: 16px;
+	width: 683px;
+	height: 699px;
+	margin-left: 38px;
+}
+
+.about_image23 {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+
+}
+
+#img1 {
+	grid-template-columns: 1/2;
+	grid-template-rows: 1/2;
+}
+
+#img2 {
+	grid-template-columns: 2/3;
+	grid-template-rows: 2/3;
+}
+
+.image_cover {
+	max-width: 1440px;
+	height: 810px;
+	width: 100%;
+}
+
+.main__menu {
+	width: 1440px;
+	height: 233px;
+	padding: 96.217px 37.026px 0px 37.48px;
+}
+
+.menu_text-info {
+	text-align: end;
+	float: right;
+	font-size: 30px;
+	margin: 0 auto;
+	text-transform: uppercase;
+
+}
+
+.main__salmon {
+	width: 1440px;
+	height: 925px;
+	margin-top: 26px;
+}
+
+.main_photo-inf {
+	width: 1398px;
+	height: 932px;
+	margin: 0 auto;
+}
+
+.part1 {
+	display: flex;
+	gap: 15px;
+}
+
+.part2 {
+	display: flex;
+	gap: 15px;
+}
+
+.photo_information {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 15px;
+	margin: 0 auto;
+}
+
+.information h1 {
+	font-size: 25.25px;
+	text-transform: uppercase;
+}
+
+.information p {
+	font-size: 14px;
+}
+
+.photo-text1 {
+	display: flex;
+	align-items: flex-end;
+}
+
+.seafood_menu-name h1 {
+	text-transform: uppercase;
+	font-size: 153px;
+}
+
+.seafood_menu-name {
+	width: 1367px;
+	height: 183px;
+	margin: 0 auto;
+}
+
+.seafood_photo-inf {
+	width: 1367px;
+	height: 954px;
+	margin: 0 auto;
+}
+
+.seafood__group {
+	max-width: 1440px;
+	margin-top: 12px;
+}
+
+.group1 {
+	display: flex;
+	gap: 15px;
+}
+
+.group2 {
+	display: flex;
+	gap: 15px;
+}
+
+.photo_information-text {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 15px;
+}
+
+.gr_text1 {
+	font-size: 16px;
+}
+
+.gr_text2 h1 {
+	font-size: 26.25px;
+}
+
+.gr_text2 h2 {
+	font-size: 14px;
+}
+
+.gr_block {
+	width: 427px;
+	height: 93px;
+}
+
+.gr_block h1 {
+	text-transform: uppercase;
+}
+
+.gr_text2 {
+	display: flex;
+	align-items: flex-end;
+}
+
+.main__seafood-information {
+	width: 1440px;
+	height: 1238px;
+}
+
+.footer__gallery-section {
+	width: 1348px;
+	height: 276px;
+
+}
+
+.gallery_information {
+	text-transform: uppercase;
+	text-align: right;
+	font-size: 30px;
+}
+
+.gallery_text1 {
+	float: right;
+	margin-right: 150px;
+}
+
+.footer__image-gallery {
+	margin-top: 26px;
+}
+
+footer .group_images1 {
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	grid-template-rows: repeat(3, 1fr);
+	gap: 15px;
+	width: 1440px;
+	margin-top: 15px;
+}
+
+.Image_31 {
+	grid-column: 1/3;
+	grid-row: 1/3;
+	width: 444.73px;
+	height: 444.73px;
+	background: url("img/Image_31.png");
+	background-size: cover;
+}
+
+.Image_32 {
+	grid-column: 3/5;
+	grid-row: 1/4;
+	width: 621px;
+	height: 616.5px;
+	background: url("img/Image_32.png");
+	background-size: cover;
+	margin-left: -120px;
+}
+
+.Image_33 {
+	grid-column: 5/6;
+	grid-row: 2/4;
+	width: 268.5px;
+	height: 268.5px;
+	background: url("img/Image_33.png");
+	background-size: cover;
+	margin-left: -60px;
+	margin-top: 120px;
+}
+
+footer .group_images2 {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+	width: 1440px;
+	margin-top: -40px;
+}
+
+.Image_34 {
+	grid-column: 1/3;
+	grid-row: 1/3;
+	width: 667.48px;
+	height: 667.48px;
+	background: url("img/Image_34.png");
+	background-size: cover;
+}
+
+.Image_35 {
+	grid-column: 3/4;
+	grid-row: 1/2;
+	width: 333.73px;
+	height: 334.48px;
+	background: url("img/Image_35.png");
+	background-size: cover;
+	margin-left: -30px;
+}
+
+.Image_36 {
+	grid-column: 4/5;
+	grid-row: 2/3;
+	width: 333.73px;
+	height: 334.48px;
+	background: url("img/Image_36.png");
+	background-size: cover;
+	margin-left: -30px;
+}
+
+footer .group_images3 {
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+	width: 1338px;
+	gap: 15px;
+	margin-top: 15px;
+}
+
+.Image_37 {
+	grid-column: 1/2;
+	grid-row: 1/2;
+	width: 274.5px;
+	height: 274.5px;
+	background: url("img/Image_37.png");
+	background-size: cover;
+}
+
+.Image_38 {
+	grid-column: 3/4;
+	grid-row: 1/2;
+	width: 274.5px;
+	height: 274.5px;
+	background: url("img/Image_38.png");
+	background-size: cover;
+}
+
+.Image_39 {
+	grid-column: 4/6;
+	grid-row: 1/3;
+	width: 497px;
+	height: 549px;
+	background: url("img/Image_39.png");
+	background-size: cover;
+}
+
+.Image_40 {
+	grid-column: 2/3;
+	grid-row: 2/3;
+	width: 273.73px;
+	height: 260px;
+	background: url("img/Image_310.png");
+	background-size: cover;
+}
+
+.footer__map-section {
+	width: 1440px;
+	margin: 0 auto;
+}
+
+.footer__map-section h1 {
+	text-transform: uppercase;
+	font-size: 75px;
+}
+
+.map_row1 img {
+	width: 58.5px;
+	height: 58.5px;
+	margin: 0;
+}
+
+.map_row2 img {
+	width: 183.73px;
+	height: 58.5px;
+	margin: 0;
+}
+
+.map_row3 img {
+	width: 122.25px;
+	height: 58.5px;
+	margin: 0;
+}
+
+.map_row1 {
+	display: flex;
+	align-items: center;
+	gap: 24px;
+}
+
+.map_row2 {
+	display: flex;
+	gap: 24px;
+	align-items: center;
+}
+
+.map_row3 {
+	display: flex;
+	gap: 24px;
+	align-items: center;
+	margin-left: 157px;
+}
+
+.map_group {
+	margin-top: 113px;
+}
+
+.map_btn a {
+
+	text-decoration: none;
+	font-size: 10.21px;
+	color: white;
+}
+
+.map_btn {
+	width: 94.5px;
+	height: 22.5px;
+	background-color: #D2A070;
+	padding: 6px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.map__button {
+	margin-top: 50px;
+}
+
+
+
+.footer__navigation {
+	width: 1440px;
+	margin-top: 37px;
+}
+
+.footer__finish {
+	width: 1440px;
+	min-height: 310px;
+	background-color: #151515;
+	margin: 0;
+	padding-top: 48px;
+}
+
+.header__logo {
+	margin-left: 48px;
+}
+
+.footer-logo {
+	margin-bottom: 26.36px;
+}
+
+.header__logo p {
+	display: flex;
+	flex-wrap: wrap;
+	color: gray;
+	font-size: 11px;
+}
+
+.header__logo p:not(:last-child) {
+	margin-top: 26.36px;
+}
+
+.header__logo p:not(:first-child) {
+	margin-top: 4px;
+}
+
+.foot_inf {
+	color: white;
+}
+
+.foot_inf p:not(:first-child) {
+	margin-top: 4.75px;
+}
+
+.foot_messenger {
+	color: gray;
+}
+
+.foot_messenger p:not(:first-child) {
+	margin-top: 4.75px;
+}
+
+.foot__button {
+	color: gray;
+	margin-right: 41.29px;
+	text-align: right;
+}
+
+.foot__button p:not(:first-child) {
+	margin-top: 4px;
+}
+
+.foot__button p:not(:last-child) {
+	margin-top: 22.61px;
+}
+
+.finish_information {
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+}
+
+.footer__finish {
+	width: 1440px;
+	height: 240px;
+}
+
+.footer__img {
+	padding-top: 38.5px;
+	display: block;
+	margin: 0 auto;
+
+}
